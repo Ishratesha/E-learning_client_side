@@ -26,33 +26,13 @@ app.get('/category/:id', (req, res) => {
         }
 })
 //course 
-app.get('/course/:id',(req,res)=>{
-    const id = req.params.id;
-    console.log(req.params);
+
+
+ app.get('/course/:id', (req, res) => {
+     const id = req.params.id;
     const selectedCourse = coursedetails.find(n => n._id === id);
      res.send(selectedCourse);
-})
-// app.get('/category/:id', (req, res) => {
-//     const id = req.params.id;
-//     if (id === '07') {
-//         res.send();
-//     }
-//     else {
-//         const category_courses = coursedetails.filter(n => n.category_id === id);
-//         res.send(category_courses);
-//     }
-// })
-
-
-// app.get('/coursedetails', (req, res) =>{
-//     res.send(coursedetails);
-// });
-
-// app.get('/coursedetails/:id', (req, res) => {
-//     const id = req.params.id;
-  ////  const selectedNews = coursedetails.find(n => n._id === id);
-     //res.send(selectedNews);
-// });
+ });
 
 app.listen(port, () => {
     console.log('Server running on port', port);
