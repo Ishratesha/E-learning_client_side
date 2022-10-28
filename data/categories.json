@@ -1,27 +1,27 @@
 [
     {
       "id": "01",
-      "name": " Web Development"
+      "name": "HTML"
     },
     {
       "id": "02",
-      "name": "App Development;"
+      "name": "CSS"
     },
     {
       "id": "03",
-      "name": "Programming"
+      "name": "React"
     },
     {
       "id": "04",
-      "name": "Data Scince"
+      "name": "Javascript"
     },
     {
       "id": "05",
-      "name": "Digital Marketing"
+      "name": "Python"
     },
     {
       "id": "06",
-      "name": "SQL"
+      "name": "java"
     }
    
   ]

@@ -17,7 +17,7 @@ app.get('/categories', (req, res) => {
 //find via catagoryid 
 app.get('/category/:id', (req, res) => {
         const id = req.params.id;
-         if (id === '06') {
+         if (id === '07') {
             res.send();
         }
         else {
